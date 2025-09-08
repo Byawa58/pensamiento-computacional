@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+int main() 
+{
+    float x,y,z,a,b;
+    cout<<"valorr1: ";
+    cin>>x;
+    cout<<"valorr2: ";
+    cin>>y;
+    cout<<"valorr3: ";
+    cin>>z;
+    a=((2*x+y)/(z))*((y*y*y)-z);
+b=(((x+2*y+3*z)/(z-2*y-3*x))+x*x+z*z);
+cout<<"valor es:"<<a/b;
+}
+    
+    
+    
+    
+    
+    
+}
