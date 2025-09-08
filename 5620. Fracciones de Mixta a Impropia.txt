@@ -1,0 +1,24 @@
+// Online C++ compiler to run C++ program online
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main() 
+{
+    int x,y,a,p;
+    cout<<"valor del numerador: ";
+    cin>>x;
+    cout<<"valor del denominador: ";
+    cin>>y;
+    cout<<"valor del entero: ";
+    cin>>a;
+    
+    p=(a*x)+y;
+    
+    cout<<"mi rpta es.."<<p<<"/"<<a;
+    
+    
+    
+    
+    
+    
+}
